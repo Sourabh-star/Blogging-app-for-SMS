@@ -1,46 +1,27 @@
 {
-    "name": "frontend",
-    "version": "0.1.0",
-    "proxy": "http://localhost:5000/",
-    "private": true,
-    "dependencies": {
-        "@ckeditor/ckeditor5-build-classic": "^32.0.0",
-        "@ckeditor/ckeditor5-react": "^4.0.0",
-        "@testing-library/jest-dom": "^5.16.1",
-        "@testing-library/react": "^12.1.2",
-        "@testing-library/user-event": "^13.5.0",
-        "axios": "^0.25.0",
-        "react": "^17.0.2",
-        "react-dom": "^17.0.2",
-        "react-icons": "^4.3.1",
-        "react-router-dom": "^6.2.1",
-        "react-scripts": "5.0.0",
-        "uuid": "^8.3.2",
-        "web-vitals": "^2.1.4"
-    },
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
     "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject"
+        "start": "nodemon server.js "
     },
-    "eslintConfig": {
-        "extends": [
-            "react-app",
-            "react-app/jest"
-        ]
-    },
-    "browserslist": {
-        "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
-        ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
-        ]
-    },
-    "devDependencies": {}
+    "keywords": [],
+    "author": "Gilbert Hutapea ",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "cors": "^2.8.5",
+        "dotenv": "^15.0.0",
+        "express": "^4.17.2",
+        "express-async-handler": "^1.2.0",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^6.1.8",
+        "multer": "^1.4.4",
+        "nodemailer": "^6.7.2",
+        "nodemon": "^2.0.15",
+        "path": "^0.12.7",
+        "pm2": "^5.3.0",
+        "slugify": "^1.6.5"
+    }
 }
